@@ -145,17 +145,27 @@ Summary in short :
  # 💼 Business Impact from EDA
  
 	1.	Pricing Strategy:
+ 
 Strong link between Engine HP and MSRP means manufacturers can set tiered pricing based on horsepower and performance, appealing to both economy buyers (low HP, low price) and luxury buyers (high HP, high price).
+
 	2.	Market Targeting:
+ 
 Compact & midsize cars with 4–6 cylinders dominate in popularity and affordability, showing where the bulk of customer demand lies → car makers and dealerships should focus marketing on these segments.
+
 	3.	Fuel Efficiency Insight:
+ 
 Direct-drive/EVs achieve exceptional MPG, confirming the shift toward sustainable mobility. This can guide companies to invest more in EV production and marketing.
+
 	4.	Customer Segmentation:
+ 
 Driven wheels (AWD vs FWD vs RWD) indicate different customer needs:
+
 	•	AWD → high-end, performance/luxury segment.
 	•	FWD → budget-conscious, urban buyers.
 	•	RWD → performance enthusiasts.
-	•	Inventory Planning:
+ 
+	5.	Inventory Planning:
+ 
 Since high-cylinder vehicles are expensive but less popular, businesses should limit stock of these models, focusing instead on popular lower-cylinder cars to avoid excess inventory.
 
 ⸻
