@@ -21,12 +21,19 @@ All required Python libraries were imported for data loading, numerical operatio
 
 Data Loading
 
-	•	Loaded the dataset into a Pandas DataFrame.
-	•	Performed initial inspection (.head(), .info(), .describe()).
+	 •	Loaded the car dataset into a Pandas DataFrame. The shape is 11914 rows and 16 columns.
+  
+     • Columns/Features are: 'Make', 'Model', 'Year', 'Engine Fuel Type', 'Engine HP',
+       'Engine Cylinders', 'Transmission Type', 'Driven_Wheels',
+       'Number of Doors', 'Market Category', 'Vehicle Size', 'Vehicle Style',
+       'highway MPG', 'city mpg', 'Popularity', 'MSRP'
+	   
+	 •	Performed initial inspection (.head(), .info(), .describe()).
 
 Understanding the Dataset
 
 	•	Checked dataset dimensions, column descriptions, and datatypes.
+ 
 	•	Identified potential issues like missing values, inconsistent formatting, and outliers.
 
  # 🔹 Project Tasks
@@ -34,8 +41,11 @@ Understanding the Dataset
 **Task 1: Cleaning the Dataset**
 
 1.1 Handle Missing Data → Filled or dropped missing values appropriately.
+
 1.2 Data Type Conversion → Converted columns to suitable data types.
+
 1.3 Filtering Data → Kept only cars from 1995 onwards.
+
 1.4 String Operations → Standardized text (lowercase for categorical fields).
 
 ⸻
@@ -132,9 +142,37 @@ Summary in short :
 	•	Compact & midsize, lower-cylinder vehicles dominate the market (affordable + efficient).
 	•	Correlation analysis confirms trade-off: More horsepower = higher cost but lower MPG.
 
+ # 💼 Business Impact from EDA
+ 
+	1.	Pricing Strategy:
+Strong link between Engine HP and MSRP means manufacturers can set tiered pricing based on horsepower and performance, appealing to both economy buyers (low HP, low price) and luxury buyers (high HP, high price).
+	2.	Market Targeting:
+Compact & midsize cars with 4–6 cylinders dominate in popularity and affordability, showing where the bulk of customer demand lies → car makers and dealerships should focus marketing on these segments.
+	3.	Fuel Efficiency Insight:
+Direct-drive/EVs achieve exceptional MPG, confirming the shift toward sustainable mobility. This can guide companies to invest more in EV production and marketing.
+	4.	Customer Segmentation:
+Driven wheels (AWD vs FWD vs RWD) indicate different customer needs:
+	•	AWD → high-end, performance/luxury segment.
+	•	FWD → budget-conscious, urban buyers.
+	•	RWD → performance enthusiasts.
+	•	Inventory Planning:
+Since high-cylinder vehicles are expensive but less popular, businesses should limit stock of these models, focusing instead on popular lower-cylinder cars to avoid excess inventory.
+
 ⸻
 
-📦 Libraries Used
+**👉 In short:**
+This data wrangling and EDA insights can help manufacturers, dealers, and marketers align pricing, production, and promotions with real-world demand patterns — maximizing profitability while meeting consumer needs.
+
+⸻
+
+# 📦 Libraries Used
 	•	pandas, numpy → data wrangling
 	•	matplotlib, seaborn → visualization
 	•	scipy, statsmodels, sklearn → statistics, scaling, correlation
+ 
+ # Dataset
+
+ Dataset link: https://drive.google.com/file/d/19V7VjHs4J8idTko7NQUT95ZJO2ZQSGWh/view
+ 
+ Importing the dataset from the above link, anyone can run this project 'Car Dataset Analysis_Data Wrangling & EDA .ipynb' in Google Colab.
+ 
